@@ -337,11 +337,10 @@ $highlighting-macros$
 \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,fontsize=$if(code-block-font-size)$$code-block-font-size$$else$\small$endif$,commandchars=\\\{\}}
 
 $endif$
+
+\usepackage{multirow}
 $if(tables)$
 \usepackage{longtable,booktabs,array}
-$if(multirow)$
-\usepackage{multirow}
-$endif$
 \usepackage{calc} % for calculating minipage widths
 $if(beamer)$
 \usepackage{caption}
